@@ -45,7 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
         });
       } else {
         setState(() {
-          message = "Failed to fetch message: ${response.statusCode}";
+          message = "Failed to feftch message: ${response.statusCode}";
         });
       }
     } catch (e) {
